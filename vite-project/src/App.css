@@ -1,0 +1,102 @@
+#root {
+
+  margin: 0 auto;
+ 
+
+}
+.navigate{
+  background-image: linear-gradient(rgba(250, 183, 194,0.5),rgba(231, 116, 254,0.5));
+  position: fixed;
+  z-index: 1;
+}
+.brand{
+  position: relative;
+ right: 100px;
+}
+.btn-login, .startbtn{
+  background-color: rgb(107, 3, 225);
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  left: 50px;
+  color: white;
+}
+.home{
+  padding: 50px;
+
+}
+
+.form-container input.form-control{
+
+    width: 600px;
+    height: 40px;
+    margin-bottom: 5px; 
+}
+.form2 select,
+.form2 input {
+  width: 600px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0.5px solid gainsboro;
+  margin-bottom: 5px; }
+.form2 button {
+  margin: 5px; }
+h5{
+  
+  background-color: rgba(223, 195, 248,0.5);
+  height: 40px;
+  width: 300px;
+  border: none;
+ border-radius: 10px;
+ padding: 5px;
+ 
+
+}
+#top{
+  padding: 20px;
+}
+
+  .in {
+    display: flex;
+    flex-direction: column;
+   
+    
+  }
+.home h4{
+  margin-top: 150px;
+}
+.reset,.pre,.sub{
+
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 10px;
+
+}
+.reset{
+  border: 2px solid red;
+}
+.pre{
+border: 2px solid rgb(107, 3, 225);
+}
+.sub{
+  background-color: rgb(107, 3, 225);
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.form3,.form2{
+  width: 60%; 
+ 
+}
+
+label{
+ 
+  font-weight: bold;
+}
